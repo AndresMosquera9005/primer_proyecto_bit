@@ -1,8 +1,12 @@
 :root {
     --color-black: #000;
     --color-white: #fff;
+    --color-botonLogin: #1977f1;
+    --color-boderLogin: #ddd;
+    --color-fondoLogin: #f5f5f5;
 }
 
+/* HEADER */
 .Menu {
     display: flex;
     background-color: black;
@@ -23,4 +27,29 @@
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 5px;
+}
+
+
+/* LOGIN */
+
+.container {
+    padding: 20px;
+    border: 1px solid var(--color-boderLogin);
+    border-radius: 5px;
+    background-color: var(--color-fondoLogin);
+    width: 300px; 
+}
+
+.margenes {
+    margin: 5px;
+    padding-right: 60px;
+    border-radius: 6px;
+}
+
+#boton-login {
+    background: var(--color-botonLogin);
+    color: var(--color-white);
+    padding: 0 20px ;
+    margin-left: 80px;
+    border-radius: 10px;
 }
