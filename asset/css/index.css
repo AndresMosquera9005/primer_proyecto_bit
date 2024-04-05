@@ -7,7 +7,7 @@
 }
 
 /* HEADER */
-.Menu {
+/* .Menu {
     display: flex;
     background-color: black;
     height: 50px;
@@ -27,7 +27,7 @@
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 5px;
-}
+} */
 
 
 /* LOGIN */
@@ -53,3 +53,7 @@
     margin-left: 80px;
     border-radius: 10px;
 }
+
+
+/* ESTILO PARA HOJA DE CONTACTO  */
+
