@@ -179,6 +179,14 @@
     border-radius: 50%;
 
 }
+
 #facebook{
     width: 50px;
+}
+
+.linea-vertical {
+    background-color: var(--color-black);
+    width: 1px;
+    height: 100%;
+    margin: 0 auto;
 }
