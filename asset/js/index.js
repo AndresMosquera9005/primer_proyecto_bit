@@ -15,6 +15,19 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 });
 
+let imagenes = document.querySelectorAll(".imagen-cliente")
+console.log("🚀 ~ imagenes:", imagenes)
+
+for (let x = 0; x < imagenes.length; x++) {
+    imagenes[x].addEventListener('mouseover', () => {
+        imagenes[x].classList.add('animate__animated', 'animate__bounce');
+    });
+    imagenes[x].addEventListener('mouseout', () => {
+        imagenes[x].classList.remove('animate__animated', 'animate__bounce');
+    });
+    
+}
+
 
 // let boton_login = document.getElementById("botonLogin");
 //let btn_enviar = document.getElementById("btn-enviar");
