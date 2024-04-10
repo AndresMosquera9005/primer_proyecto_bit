@@ -106,6 +106,13 @@
 #imagen-fondo {
     background-image: url("../img/apto-fondo.jpg");
 }
+#botonLogin {
+    background: var(--color-botonLogin);
+    color: var(--color-white);
+    padding: 0 20px ;
+    margin-left: 80px;
+    border-radius: 10px;
+}
 
 
 /* ESTILO PARA HOJA DE FOOTER  */
