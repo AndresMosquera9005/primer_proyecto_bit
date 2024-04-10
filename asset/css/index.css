@@ -4,6 +4,7 @@
     --color-boton-inicio-sesion: #29487d;
     --color-inicio-sesion-fondo: #fff;
     --color-texto-login: #333;
+    --color-footer: #ffffff;
 }
 
 /* LOGIN */
@@ -117,6 +118,10 @@
 
 /* ESTILO PARA HOJA DE FOOTER  */
 
+#id-footer {
+background-color: var(--color-footer) ;
+}
+
 .footer-linea{
     border-top: var(--color-black) solid 1px;    
 }
@@ -127,22 +132,22 @@
 }
 
 #whatsapp {
-    width: 50px;
+    width: 30px;
 }
 
 #instagram {
-    width: 50px;
+    width: 30px;
     border-radius: 50%;
 }
 
 #twitter{
-    width: 50px;
+    width: 30px;
     border-radius: 50%;
 
 }
 
 #facebook{
-    width: 50px;
+    width: 30px;
 }
 
 .linea-vertical {
