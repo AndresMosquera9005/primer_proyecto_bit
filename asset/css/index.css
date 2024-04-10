@@ -8,52 +8,6 @@
 
 /* LOGIN */
 
-/* .container {
-    padding: 20px;
-    border: 1px solid var(--color-boderLogin);
-    border-radius: 5px;
-    background-color: var(--color-fondoLogin);
-}
-
-#foto-perfil-login{
-    border: var(--color-black) solid 2px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-left: 80px;
-    margin-bottom: 10px;
-}
-
-.alinear-contenedor-login{
-    padding: 20px;
-    border: 1px solid var(--color-boderLogin);
-    border-radius: 5px;
-    background-color: var(--color-fondoLogin);
-    width: 300px;
-    margin-left: 500px;
-}
-
-.margenes {
-    margin: 5px;
-    padding-right: 60px;
-    border-radius: 6px;
-}
-
-.border-input{
-    border: transparent;
-}
-
-#botonLogin {
-    background: var(--color-botonLogin);
-    color: var(--color-white);
-    padding: 10px 48px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-
-} */
-
 .flex {
     display: flex;
     justify-content: center;
