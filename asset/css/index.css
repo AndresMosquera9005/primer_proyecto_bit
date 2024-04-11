@@ -3,8 +3,15 @@
     --color-white: #fff;
     --color-boton-inicio-sesion: #29487d;
     --color-inicio-sesion-fondo: #fff;
-    --color-texto-login: #333;
+    --color-texto-login: #ff293B;
     --color-footer: #ffffff;
+}
+
+/* ESTE ES EL BODY */
+
+.imagen-fondo {
+    background-image: url("../img/fondocasa.jpg");
+    background-size:cover;
 }
 
 /* LOGIN */
