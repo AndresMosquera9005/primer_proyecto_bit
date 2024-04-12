@@ -167,6 +167,22 @@
     background-color: #5090e1;
 }
 
+
+/* NOSOTROS */
+
+.container-nosotros {
+    margin-left: 20%;
+    margin-right: 20%;
+    color: var(--color-black);
+    text-align: justify;
+}
+
+#imagen-fondo-nosotros {
+    /* background-image: url("../img/fondocasa.jpg"); */
+    margin-bottom: 300px;
+}
+
+
 /* CONTACTO */
 
 #imagen-fondo {
