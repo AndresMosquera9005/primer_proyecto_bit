@@ -186,9 +186,9 @@
     background-size: cover;
 }
 
-.imagen-fondo {
-    opacity: 0.5; /* Ajusta el valor de opacidad deseado */
-}
+/* .imagen-fondo {
+    opacity: 0.5;  
+} */
 .texto-color-nosotros{
     color: var(--color-texto-color-nosotros);
     font-size: 20px;
