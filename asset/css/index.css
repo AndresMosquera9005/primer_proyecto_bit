@@ -13,6 +13,7 @@
     --color-inicio-sesion-fondo: #fff;
     --color-texto-login: #ff293B;
     --color-footer: #ffffff;
+    --color-texto-color-nosotros: #000;
 }
 
 
@@ -64,6 +65,7 @@
     margin-left: 8px;
     margin-right: 8px;
     padding-left: 1000px;
+
 /* ESTE ES EL BODY */
 
 .imagen-fondo {
@@ -171,15 +173,29 @@
 /* NOSOTROS */
 
 .container-nosotros {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 3%;
+    margin-right: 3%;
     color: var(--color-black);
     text-align: justify;
 }
 
-#imagen-fondo-nosotros {
+.container-nosotros-fondo {
     /* background-image: url("../img/fondocasa.jpg"); */
-    margin-bottom: 300px;
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+}
+
+.imagen-fondo {
+    opacity: 0.5; /* Ajusta el valor de opacidad deseado */
+}
+.texto-color-nosotros{
+    color: var(--color-texto-color-nosotros);
+    font-size: 20px;
+}
+
+#imagen-fondo-nosotros {
+    margin-bottom: 250px;
 }
 
 
