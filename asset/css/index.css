@@ -75,6 +75,11 @@
 
 /* LOGIN */
 
+.tamaño-carrusel-contacto {
+    width: 118%;
+    margin-left: -50px ;
+}
+
 
 .flex {
     display: flex;
