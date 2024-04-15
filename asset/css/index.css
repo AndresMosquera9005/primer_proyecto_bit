@@ -12,7 +12,7 @@
     --color-boton-inicio-sesion: #29487d;
     --color-inicio-sesion-fondo: #fff;
     --color-texto-login: #ff293B;
-    --color-footer: #ffffff;
+    --color-footer: #F8F9FA;
     --color-texto-color-nosotros: #000;
 }
 
@@ -256,7 +256,6 @@ background-color: var(--color-footer) ;
 #twitter{
     width: 30px;
     border-radius: 50%;
-
 }
 
 #facebook{
@@ -272,4 +271,13 @@ background-color: var(--color-footer) ;
 
 .tamaño-letras {
     font-size: 1rem !important;
+}
+
+.body-contacto {
+    background-image: url("../img/fondocasa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
