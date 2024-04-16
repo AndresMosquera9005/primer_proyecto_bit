@@ -15,6 +15,12 @@ width: 100%;
 background-size:cover;
 }
 
+.carousel-item{
+    height: 250px;
+    width: 100%;
+    background-size:cover;
+    }
+
 .imagen1{
     
     background-image: url(../img/baño.jpg);
@@ -33,7 +39,7 @@ background-size:cover;
 
 .contactanos{
     margin: 20px;
-    background-color: #F5F5DC
+    background-color: #f7f7c8
     ;
 }
 
