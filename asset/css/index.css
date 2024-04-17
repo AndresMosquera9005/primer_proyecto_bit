@@ -241,8 +241,8 @@ background-color: var(--color-footer) ;
 margin-top: 5%;
 }
 
-.footer-linea{
-    border-top: var(--color-black) solid 1px;    
+.footer-linea {
+    border-top: var(--color-black) solid 1px;   
 }
 
 .footer {
@@ -277,6 +277,21 @@ margin-top: 5%;
 
 .tamaño-letras {
     font-size: 1rem !important;
+}
+
+.tamaño-letras-numero{
+    text-decoration: none !important;
+}
+
+.tamaño-letras a {
+    display: inline-block;
+    text-decoration: none; 
+    color: #007bff;
+}
+
+.tamaño-letras a:hover { 
+    background-color: #007bff;
+    color: white;
 }
 
 .body-contacto {
