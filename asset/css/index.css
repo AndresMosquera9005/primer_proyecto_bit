@@ -302,3 +302,105 @@ margin-top: 5%;
     margin: 0;
     padding: 0;
 }
+
+
+/* NUEVO */
+
+#body-reg-log {
+    font-family: sans-serif;
+    /* margin-left: 10%; */
+    padding: 20px;
+    background-image: url("../img/fondocasa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.row-reg-log {
+    display: flex;
+}
+
+.col-reg-log {
+    padding: 10px 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-left: 345px;
+}
+
+.col-reg-log-dos {
+    padding: 10px 95px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-left: 345px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.h2 {
+    text-align: center;
+    color: #ddd;
+}
+
+.formInputs-column {
+    display: flex; 
+    flex-direction: column; 
+}
+
+.formInputs-column > input,
+.formInputs-column > button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    margin-left: -10px;
+}
+
+/* .formInputs-column > button {
+    background-color: #2d25c1; 
+    color: white;
+    cursor: pointer;
+} */
+
+.linea-horizontal {
+    border-bottom: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+#olvidar-clave a {
+    color: #2d17d1;
+    text-decoration: none;
+}
+
+#form-registo {
+    margin-left: 10px;
+}
+
+#boton-registro {
+    background-color: #2d25c1;
+    color: white;
+    padding: 5px 63px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+#crear-cuenta {
+    background-color: #2d25c1;
+    color: white;
+    padding: 5px 63px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+#button-login {
+    background-color: #2d25c1;
+    color: white;
+    padding: 5px 63px;
+    cursor: pointer ;
+    border-radius: 2px;
+
+}
