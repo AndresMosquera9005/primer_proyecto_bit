@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function (event) {
-    let botonLogin = document.getElementById("botonLogin");
+    let botonLogin = document.getElementById("buttonLogin");
     if (botonLogin) {
         botonLogin.addEventListener("click", () => {
             alert("Espere un momento por favor ...");

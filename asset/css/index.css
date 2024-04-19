@@ -12,14 +12,9 @@
     --color-white: #fff;
     --color-boton-inicio-sesion: #29487d;
     --color-inicio-sesion-fondo: #fff;
-<<<<<<< HEAD
     --color-texto-login: #ff293B;
     --color-footer: #F8F9FA;
     --color-texto-color-nosotros: #000;
-=======
-    --color-texto-login: #ffffff;
-    --color-footer: #ffffff;
->>>>>>> santiago
 }
 
 
@@ -258,20 +253,12 @@
 /* ESTILO PARA HOJA DE FOOTER  */
 
 #id-footer {
-<<<<<<< HEAD
 background-color: var(--color-footer) ;
 margin-top: 5%;
 }
 
 .footer-linea {
     border-top: var(--color-black) solid 1px;   
-=======
-    background-color: var(--color-footer);
-}
-
-.footer-linea {
-    border-top: var(--color-black) solid 1px;
->>>>>>> santiago
 }
 
 .footer {
