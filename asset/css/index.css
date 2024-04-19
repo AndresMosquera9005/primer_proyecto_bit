@@ -334,6 +334,7 @@ margin-top: 5%;
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-left: 345px;
+    margin-right: 210px;
 }
 
 section {
@@ -357,8 +358,19 @@ section {
     border: 1px solid #ccc;
     border-radius: 3px;
     width: 100%;
-    margin-left: -10px;
+    /* margin-left: -10px; */
 }
+
+.formInputs-column-registro > input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 136%;
+    margin-left: -48px;
+}
+
+
 
 /* .formInputs-column > button {
     background-color: #2d25c1; 
@@ -383,9 +395,10 @@ section {
 #boton-registro {
     background-color: #2d25c1;
     color: white;
-    padding: 5px 63px;
+    padding: 5px 100px;
     cursor: pointer;
     border-radius: 2px;
+    margin-left: -37px;
 }
 
 #crear-cuenta {
