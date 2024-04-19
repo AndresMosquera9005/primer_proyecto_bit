@@ -124,6 +124,15 @@
     width: 300px;
 }
 
+#login-form{
+    background-image: url("../imagenes_santiago/img/renovar\ t.jpg");
+}
+
+#login-seccion {
+    margin-left: 40%;
+    margin-top: 1%;
+}
+
 .formInputs-column {
     display: flex;
     flex-direction: column;
