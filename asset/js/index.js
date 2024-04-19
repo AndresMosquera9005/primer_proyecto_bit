@@ -6,10 +6,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
     });
     } 
 
-    let botonEnviar = document.getElementById("btn-enviar");
+    let boton_registro = document.getElementById("boton-registro");
+    if (boton_registro) {
+        boton_registro.addEventListener("click", () => {
+        alert("Su registro fue un exito");
+    });
+    } 
+
+    let botonEnviar = document.getElementById("crear-cuenta");
     if (botonEnviar) {
         botonEnviar.addEventListener("click", () => {
-        alert("El formulario fue enviado exitosamente");
+        alert("Su cuenta ta fue creada con exito");
     });
     }
 

@@ -9,44 +9,42 @@
         <link rel="stylesheet" href="../../css/index.css">
         
     </head>
-    <body>
+    <body id="body-reg-log">
 
         <nav class="navbar navbar-expand-sm bg-body-tertiary ">
-        <div class="container-fluid ">
-            <a class="navbar-brand" href="#">RENOVAR STYLE</a>
-            <div><i class="fa-solid fa-house"></i></div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav  me-0 mb-lg-0 ms-auto ">
-                    <li class="nav-item color1">
-                        <a class="nav-link" aria-current="page" href="../inicio/inicio.html">Inicio</a>
-                    </li>
-                    <li class="nav-item color1">
-                        <a class="nav-link" href="../proyectos/proyecto.html">Proyectos</a>
-                    </li>
-                    <li class="nav-item color1">
-                        <a class="nav-link" href="../contacto/contacto.html">Contacto</a>
-                    </li>
-                    <li class="nav-item color1">
-                        <a class="nav-link" href="../login/login.html">Login</a>
-                    </li>
-                </ul>
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#">RENOVAR STYLE</a>
+                <div><i class="fa-solid fa-house"></i></div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  me-0 mb-lg-0 ms-auto ">
+                        <li class="nav-item color1">
+                            <a class="nav-link" aria-current="page" href="../inicio/inicio.html">Inicio</a>
+                        </li>
+                        <li class="nav-item color1">
+                            <a class="nav-link" href="../proyectos/proyecto.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item color1">
+                            <a class="nav-link" href="../contacto/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item color1">
+                            <a class="nav-link" href="../login/login.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-        <h1>Bienvenido LOGIN</h1>
-
-        <div class="flex imagen-fondo">
+        <!-- <div class="flex imagen-fondo">
             <div>
                 <aside class="login-p">
                     <p id="pUno">Crea un espacio seguro <br>y acogedor para tu familia <br>con Renova Style."</p>
                 </aside>
-            </div>
+            </div> -->
 
-            <section id="form-login">
+            <!-- <section id="form-login">
                 <form class="formInputs-column">
                     <input type="text" class="passwordEmailNumber" placeholder="Correo electrónico o número de teléfono">
                     <input type="password" class="passwordEmailNumber" id="password" placeholder="Contraseña" >
@@ -56,6 +54,35 @@
                 <p id="olvidar-clave"><a href="">olvidarte la clave ?</a></p>
                 <button class="formInput" id="CreateNew">Crear la cuenta</button>
             </section>
+        </div> -->
+
+        <div class="row-reg-log">
+            <div class="col-reg-log">
+                <h2 class="h2">LOGIN</h2>
+                <section id="form-login">
+                    <form class="formInputs-column">
+                        <input type="text" class="passwordEmailNumber" placeholder="Correo electrónico">
+                        <input type="password" class="passwordEmailNumber" id="password" placeholder="Contraseña" >
+                        <div class="linea-horizontal"></div>
+                        <button id="button-login">Iniciar sesion</button>
+                    </form>
+                    <p id="olvidar-clave"><a href="">olvidarte la clave ?</a></p>
+                    <button class="formInput" id="crear-cuenta">Crear cuenta</button>
+                </section>
+            </div>
+    
+            <div class="col-reg-log-dos" id="form-registo">
+                <h2 class="h2">REGISTRO</h2>
+                <section >
+                    <form class="formInputs-column-registro">
+                        <input type="text" class="passwordEmailNumber" placeholder="Nombres completo">
+                        <input type="text" class="passwordEmailNumber" id="apellido" placeholder="Apellido completo">
+                        <input type="password" placeholder="Contraseña">
+                        <input type="text" placeholder="Correo electronico">
+                    </form>
+                    <button id="boton-registro">Registro</button>
+                </section>
+            </div>
         </div>
         
         <footer id="id-footer" >
