@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function (event) {
-    let botonLogin = document.getElementById("botonLogin");
+    let botonLogin = document.getElementById("buttonLogin");
     if (botonLogin) {
         botonLogin.addEventListener("click", () => {
             alert("Espere un momento por favor ...");
@@ -16,13 +16,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
     let botonEnviar = document.getElementById("crear-cuenta");
     if (botonEnviar) {
         botonEnviar.addEventListener("click", () => {
-<<<<<<< HEAD
-        alert("Su cuenta ta fue creada con exito");
-    });
-=======
             alert("El formulario fue enviado exitosamente");
         });
->>>>>>> santiago
     }
 
 });
