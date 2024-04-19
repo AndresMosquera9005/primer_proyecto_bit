@@ -201,6 +201,7 @@
 
 #id-footer {
     background-color: var(--color-footer);
+    
 }
 
 .footer-linea {
@@ -214,6 +215,7 @@
 
 #whatsapp {
     width: 30px;
+    border-radius:50% ;
 }
 
 #instagram {
@@ -229,6 +231,7 @@
 
 #facebook {
     width: 30px;
+    border-radius: 50%;
 }
 
 .linea-vertical {
